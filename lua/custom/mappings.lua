@@ -10,12 +10,12 @@ M.dap = {
 
     ["<localleader>c"] = {
       "<cmd> DapContinue <CR>",
-      "Start or continue debugger"
+      "Start debugger or go to the next breakpoint"
     },
 
     ["<localleader>s"] = {
       "<cmd> DapStepOver <CR>",
-      "Start or continue debugger"
+      "Step over"
     },
 
     ["<localleader>t"] = {
@@ -25,12 +25,12 @@ M.dap = {
 
     ["<localleader>i"] = {
       "<cmd> DapStepInto <CR>",
-      "Terminate debugger"
+      "Step into"
     },
 
     ["<localleader>o"] = {
       "<cmd> DapStepOut <CR>",
-      "Terminate debugger"
+      "Step out"
     },
   }
 }

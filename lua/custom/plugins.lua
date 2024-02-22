@@ -37,6 +37,13 @@ local plugins = {
       require("core.utils").load_mappings("dap")
     end
   },
+  {
+    "neovim/nvim-lspconfig",
+     config = function()
+        require "plugins.configs.lspconfig"
+        require "custom.configs.lspconfig"
+     end,
+  },
 }
 
 return plugins
