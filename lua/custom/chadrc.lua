@@ -2,8 +2,9 @@
 local M = {}
 
 M.ui = {
-  theme = 'everblush'
+  theme = 'ayu_dark'
 }
 M.plugins = "custom.plugins"
+M.mappings = require("custom.mappings")
 
 return M
