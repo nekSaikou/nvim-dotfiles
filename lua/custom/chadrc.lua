@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = 'ayu_dark'
+  theme = 'everblush'
 }
 M.plugins = "custom.plugins"
 

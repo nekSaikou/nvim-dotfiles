@@ -9,6 +9,9 @@ g.toggle_theme_icon = "   "
 g.transparency = config.ui.transparency
 
 -------------------------------------- options ------------------------------------------
+-- Line number
+vim.wo.relativenumber = true
+
 opt.laststatus = 3 -- global statusline
 opt.showmode = false
 
@@ -50,7 +53,6 @@ opt.updatetime = 250
 opt.whichwrap:append "<>[]hl"
 
 g.mapleader = " "
-
 g.maplocalleader = ";"
 
 -- disable some default providers
