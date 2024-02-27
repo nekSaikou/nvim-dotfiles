@@ -5,13 +5,14 @@ local capabilities = configs.capabilities
 local lspconfig = require "lspconfig"
 local servers = {
   "bashls",
-  "csharp_ls",
   "clangd",
   "cmake",
+  "csharp_ls",
   "hls",
-  "zls",
+  "ocamllsp",
   "pylsp",
-  "rust_analyzer"
+  "rust_analyzer",
+  "zls",
 }
 
 for _, lsp in ipairs(servers) do
