@@ -9,7 +9,6 @@ local servers = {
   "cmake",
   "csharp_ls",
   "hls",
-  "ocamllsp",
   "pylsp",
   "rust_analyzer",
   "zls",
