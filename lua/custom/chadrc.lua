@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = 'ayu_dark'
+  theme = 'onedark'
 }
 M.plugins = "custom.plugins"
 M.mappings = require("custom.mappings")
