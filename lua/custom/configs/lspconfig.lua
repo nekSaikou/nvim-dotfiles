@@ -8,10 +8,8 @@ local servers = {
   "clangd",
   "cmake",
   "csharp_ls",
-  "hls",
-  "pylsp",
+  "pyright",
   "rust_analyzer",
-  "zls",
 }
 
 for _, lsp in ipairs(servers) do
